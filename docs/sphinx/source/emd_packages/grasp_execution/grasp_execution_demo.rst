@@ -24,7 +24,7 @@ The EMD Grasp Execution package communicates with the Grasp Planner package thro
 
 **2. Dynamic Safety Capabilities**
 
-In real life use cases, collaborative robots often operate closely with human operators or reside in an ever-changing environment. There is thus a need for the robot to be equipped wiht the dynamic safety capability, to detect possible collision during its trajectory execution and avoid these occurring obstacles.
+In real life use cases, collaborative robots often operate closely with human operators or reside in an ever-changing environment. There is thus a need for the robot to be equipped with the dynamic safety capability, to detect possible collision during its trajectory execution and avoid these occurring obstacles.
 
 Grasp Execution provides users with a vision based dynamic collision avoidance capability using Octomaps. When a collision has been deemed to occur in the trajectory of the robot, the dynamic safety module will be triggered. This would either stop the robot to avoid collision, or call for the dynamic replanning of its trajectory given the new collision objects in the scene.
 

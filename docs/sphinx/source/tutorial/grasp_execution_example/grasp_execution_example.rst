@@ -18,7 +18,7 @@ Grasp execution configuration
 Grasp execution launch file
 -------------------------------
 
-First we need to configure the grasp execution launch file. In :code:`/workcell_ws/src/easy_manipulation_deployment/grasp_execution/launch/grasp_execution.launch.py` , make sure you define the correct scene package for the grasp execution, and the correct base link of the robot. 
+First we need to configure the grasp execution launch file. In :code:`/workcell_ws/src/easy_manipulation_deployment/grasp_execution/example/launch/grasp_execution.launch.py` , make sure you define the correct scene package for the grasp execution, and the correct base link of the robot. 
 
 .. code-block:: bash
 
@@ -47,11 +47,10 @@ This link, :code:`ee_palm` represents the point of contact with respect to the g
 Grasp execution node file
 -------------------------------
 
-In :code:`/workcell_ws/src/easy_manipulation_deployment/grasp_execution/src/grasp_execution_node.cpp`,edit the following line to reflect the link of the end effector that will represent the point of contact with respect to the grasp object. In this case, it will be :code:`ee_palm`.
+In :code:`/workcell_ws/src/easy_manipulation_deployment/grasp_execution/example/config/workcell_context.yaml` you can edit the :code:`end_effectors.link` parameter to reflect the link of the end effector that will represent the point of contact with respect to the grasp object. In this case, it will be :code:`ee_palm`.
 
-.. code-block:: bash
-
-   demo.init("manipulator", "ee_palm");
+The link group name for the manipulator can also be defined by the :code:`group_name` parameter.
+In this case, it will be :code:`manipulator`.
 
 Running full pipeline
 ^^^^^^^^^^^^^^^^^^^^^^
