@@ -60,12 +60,6 @@ Installing only the Workcell Builder
 
    git clone https://github.com/ros-industrial/easy_manipulation_deployment.git
    
-   mv easy_manipulation_deployment/assets/ .
-
-   mv easy_manipulation_deployment/scenes/ .
-
-   mv easy_manipulation_deployment/easy_manipulation_deployment/workcell_builder ./easy_manipulation_deployment
-   
    find ./easy_manipulation_deployment -mindepth 1 ! -regex '^./easy_manipulation_deployment/workcell_builder\(/.*\)?' -delete
 
    cd ~/workcell_ws
@@ -88,12 +82,6 @@ Installing entire Easy Manipulation Deployment package
    cd ~/workcell_ws/src
 
    git clone https://github.com/ros-industrial/easy_manipulation_deployment.git
-   
-   mv easy_manipulation_deployment/assets/ .
-
-   mv easy_manipulation_deployment/scenes/ .
-
-   mv easy_manipulation_deployment/easy_manipulation_deployment/workcell_builder ./easy_manipulation_deployment
    
    cd ~/workcell_ws
    
