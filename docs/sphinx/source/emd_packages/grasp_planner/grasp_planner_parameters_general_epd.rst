@@ -60,7 +60,7 @@ if :code:`true`, EPD Precision Level 3, Object Tracking will be taken as input.
 if :code:`false`, EPD Precision Level 2, Object Localization will be taken as input.
 
 To understand more about the different precision levels, visit the
-`easy_perception_deployment documentation <https://easy-perception-deployment.readthedocs.io/en/latest/>`_
+`easy_perception_deployment documentation <https://epd-docs.readthedocs.io/en/latest/>`_
 
 To find out more about the Precision Level ROS2 message differences: :ref:`grasp_planner_input` 
 

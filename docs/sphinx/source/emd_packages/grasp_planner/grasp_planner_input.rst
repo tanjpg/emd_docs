@@ -30,7 +30,7 @@ The EMD Grasp Planner also supports output from the `easy_perception_deployment 
 
 Currently the EMD Grasp Planner supports both **Object Localization** and **Object Tracking** outputs from EPD Precision level 3.
 
-To understand more about the output messages from EPD, do visit the `EPD documentation <https://easy-perception-deployment.readthedocs.io/en/latest/>`_
+To understand more about the output messages from EPD, do visit the `EPD documentation <https://epd-docs.readthedocs.io/en/latest/>`_
 
 
 Which EMD Workflow to choose?
@@ -85,7 +85,7 @@ Greater hardware requriements: EPD Workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Due to the higher hardware limitations for deploying of deep learning models, hardware requirements will be higher for the EPD workflow.
-Check the `easy_perception_deployment documentation <https://easy-perception-deployment.readthedocs.io/en/latest/>`_
+Check the `easy_perception_deployment documentation <https://epd-docs.readthedocs.io/en/latest/>`_
 for a more comprehensive hardware requirement specifications.
 
 Which EMD Workflow to choose (TLDR)?
