@@ -60,15 +60,13 @@ Installing only the Workcell Builder
 
    git clone https://github.com/ros-industrial/easy_manipulation_deployment.git
    
-   find ./easy_manipulation_deployment -mindepth 1 ! -regex '^./easy_manipulation_deployment/workcell_builder\(/.*\)?' -delete
-
    cd ~/workcell_ws
    
    source /opt/ros/foxy/setup.bash
    
    rosdep install --from-paths src --ignore-src -yr --rosdistro "${ROS_DISTRO}"
 
-   colcon build
+   colcon build --packages-up-to workcell_builder
 
    source install/setup.bash
 
